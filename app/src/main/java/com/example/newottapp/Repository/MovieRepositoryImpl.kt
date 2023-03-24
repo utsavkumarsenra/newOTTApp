@@ -1,12 +1,14 @@
 package com.example.newottapp.Repository
 
 
+
 import com.example.newottapp.models.Movie
+import com.example.newottapp.ui.util.apijson
 import com.google.gson.Gson
 import org.json.JSONObject
 
 
-class UserRepositoryImpl() : UserRepository {
+class MovieRepositoryImpl() : MovieRepository {
 
     //geting movie list by pages by parsing json data given in api
     //using gson to convert to model class

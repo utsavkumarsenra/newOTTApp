@@ -3,7 +3,7 @@ package com.example.newottapp.Repository
 import com.example.newottapp.models.Movie
 
 
-interface UserRepository {
+interface MovieRepository {
 
 
     fun getList(position: Int) : ArrayList<Movie>
