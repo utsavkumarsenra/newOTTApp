@@ -34,6 +34,10 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+//    configurations {
+//        debugImplementation.exclude group: "junit", module: "junit"
+//    }
 }
 
 dependencies {
@@ -57,6 +61,8 @@ dependencies {
     // Gson
     // https://github.com/google/gson
     implementation 'com.google.code.gson:gson:2.8.9'
+
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.10'
 
     implementation 'com.github.nicolasjafelle:paginggridview:1.0'
     implementation 'com.github.bumptech.glide:glide:4.15.0'
